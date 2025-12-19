@@ -25,6 +25,7 @@ def main():
         print("Usage: python3 main.py <path_to_book>")
         sys.exit(1)
 
+# supporting function to pull a book's text as a string
 def get_book_text(path):
     with open(path) as f:
         return f.read()
